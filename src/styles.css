@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  background: burlywood;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+.form > form > input,
+.form > form > textarea {
+  padding: 5px;
+  font-size: 20px;
+  margin: 2px;
+  width: 500px;
+}
+.form > form > button {
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.items {
+  width: 100vw;
+}
+.display {
+  background: rgba(191, 233, 5, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80vw;
+  padding: 5px;
+}
+.display > span {
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid violet;
+  width: 150px;
+}
+.property {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  background: rgba(191, 233, 5, 0.5);
+  overflow: scroll;
+  /* flex-direction: column; */
+}
+.property button {
+  height: 50px;
+  width: 100px;
+}
